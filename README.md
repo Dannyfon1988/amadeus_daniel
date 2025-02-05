@@ -52,7 +52,7 @@ El sistema se autenticará automáticamente al iniciar el servidor.
 
 Ejemplo de solicitud:
 
-http://localhost:3000/flights?origin=MAD&destination=JFK&departureDate=2025-03-10&adults=1&maxPrice=1000&nonStop=false
+http://localhost:3000/flights/search?origin=BCN&destination=MIA&departureDate=2025-04-15&adults=2&maxPrice=1200&nonStop=true
 
 http://localhost:3000/flights/search?origin=MAD&destination=JFK&departureDate=2025-03-10
 

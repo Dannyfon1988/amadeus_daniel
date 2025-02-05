@@ -36,7 +36,7 @@ PORT=3000
 
 4. Ejecutar el servidor
 
-npm start
+npm run dev
 
 El servidor se ejecutará en http://localhost:3000.
 
@@ -58,6 +58,9 @@ http://localhost:3000/flights/search?origin=MAD&destination=JFK&departureDate=20
 
 
 Errores comunes y soluciones
+
+
+http://localhost:3000/flights/analyze?origin=MAD&departureDateRange=2025-03-10,2025-03-15
 
 ❌ NetworkError: undefined statusCode
 

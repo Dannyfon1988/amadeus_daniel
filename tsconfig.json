@@ -1,9 +1,12 @@
+
+// opciones de compilación del proyecto
+
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
+    "target": "ES6", // Define la versión de ECMAScript a la que se transpilara el código
+    "module": "CommonJS", //  permite importar y exportar módulos con require() y module.exports.
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./src", // Define la carpeta raíz del código fuente
     "strict": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
@@ -13,4 +16,4 @@
   "include": ["src", "src/types"]
 }
 
-
+// 

@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { searchFlights } from "../services/amadeusService";
+import { searchFlights } from "../services/amadeusService"; // se encargará de hacer la búsqueda de vuelos.
 
 export const getFlights = async (req: Request, res: Response): Promise<void> => {
   try {
